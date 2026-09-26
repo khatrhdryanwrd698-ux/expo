@@ -4,6 +4,8 @@
 
 ### 🛠 Breaking changes
 
+- Upgrade `@testing-library/react-native` to v14. Its `render`, `renderHook`, `fireEvent` and `act` are now async, so component tests must `await` them.
+
 ### 🎉 New features
 
 ### 🐛 Bug fixes
